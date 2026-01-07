@@ -1,0 +1,15 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "grego": "Grego Filmes",
+    "rec": "Rec Productions (companies)",
+    "social": "Social Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title1": "Strong narratives. Impactful aesthetics.",
+    "title2": "Music videos and productions that elevate your brand.",
+    "ctaPortfolio": "View Portfolio",
+    "ctaContact": "Contact Us"
+  }
+}

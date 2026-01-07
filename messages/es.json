@@ -1,0 +1,15 @@
+{
+  "Navbar": {
+    "home": "Inicio",
+    "grego": "Grego Filmes",
+    "rec": "Rec Producciones (empresas)",
+    "social": "Proyectos Sociales",
+    "contact": "Contactos"
+  },
+  "Hero": {
+    "title1": "Narrativas fuertes. Estética de impacto.",
+    "title2": "Videoclips y producciones que elevan tu marca.",
+    "ctaPortfolio": "Ver Portafolio",
+    "ctaContact": "Contáctanos"
+  }
+}
