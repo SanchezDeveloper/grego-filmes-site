@@ -4,16 +4,13 @@ import Link from "next/link";
 import Image from 'next/image';
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { useTranslations } from 'next-intl';
-import { getNavLinks } from "@/app/utils/navigations";
+
 import { ModeToggle } from "./ModeToggle";
-import { LanguageToggle } from "../LanguageToggle";
+import { getNavLinks } from "@/app/utils/navigations";
 
 export default function Navbar() {
   const[isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const t = useTranslations('Navbar');
-  const links = getNavLinks(t);
 
   //bloqueia scroll quando menu está aberto
   useEffect(() => {
@@ -74,7 +71,7 @@ export default function Navbar() {
       >
         <div className="flex flex-col items-center justify-center  h-screen space-y-8 text-3xl font-bold tracking-tight mt-14 bg-background/95">
           
-          {links.map((link) => {
+          {getNavLinks.map((link) => {
             const isActive = pathname === link.href;
             
             return (
@@ -105,7 +102,6 @@ export default function Navbar() {
           {/* Toggle Language & toggle theme */}
           <div className="flex items-center gap-4">
             <ModeToggle />
-            <LanguageToggle />
           </div>
         </div>
       </div>

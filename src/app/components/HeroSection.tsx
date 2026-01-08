@@ -1,9 +1,7 @@
 import Image from 'next/image';
 import ButtonLink from './shared/ButtonLink';
-import { useTranslations } from 'next-intl';
 
 export default function HeroSection() {
-  const t = useTranslations('Hero');
 
   return (
     <section
@@ -32,22 +30,22 @@ export default function HeroSection() {
 
         <div className="flex flex-col text-center my-10 text-2xl gap-2">
           <h2 className="">
-            {t('title1')}
+            Narrativas fortes. Estética de impacto.
           </h2>
           <h2 className="">
-            {t('title2')}
+            Videoclipes e produções que elevam sua marca.
           </h2>
         </div>
 
         <div className="flex gap-2">
           <ButtonLink
-            label={t('ctaPortfolio')}
+            label="Ver Portfólio"
             href="#portfolio"
             className="font-semibold"
           />
           <ButtonLink
-            label={t('ctaContact')}
-            href="#portfolio"
+            label="Fale Conosco"
+            href="/contact"
             className="font-semibold"
           />
         </div>
