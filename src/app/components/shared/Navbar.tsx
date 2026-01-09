@@ -96,7 +96,7 @@ export default function Navbar() {
 
           {/* Rodapé do Menu */}
           <div className="cursor-default pt-10 text-sm font-normal text-purple-500/20 uppercase tracking-widest">
-            © 2026 SanchezDev - Sites e Sistemas
+            © {new Date().getFullYear()} SanchezDev - Sites e Sistemas
           </div>
 
           {/* Toggle Language & toggle theme */}

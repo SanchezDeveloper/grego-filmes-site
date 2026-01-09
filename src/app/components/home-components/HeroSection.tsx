@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ButtonLink from './shared/ButtonLink';
+import ButtonLink from '../shared/ButtonLink';
 
 export default function HeroSection() {
 
