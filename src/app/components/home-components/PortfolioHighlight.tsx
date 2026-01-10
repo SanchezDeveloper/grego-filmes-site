@@ -33,7 +33,7 @@ export default function PortfolioHighlight() {
       <div className="container mx-auto px-4">
         
         {/* Cabeçalho */}
-        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-12 gap-6 text-center md:text-left">
           <div className="space-y-2">
             <span className="text-blue-600 font-bold uppercase tracking-widest text-[10px] md:text-xs">Curadoria</span>
             <h2 className="text-3xl md:text-5xl font-black tracking-tighter uppercase text-foreground leading-none">
