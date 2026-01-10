@@ -127,6 +127,12 @@
   }
 }
 
+@layer utilities {
+  .pause-marquee {
+    animation-play-state: paused;
+  }
+}
+
 @keyframes marquee {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-50%); }
@@ -136,9 +142,4 @@
   animation: marquee 25s linear infinite;
   display: flex;
   width: max-content;
-}
-
-/* Pausa a animação quando o utilizador passa o rato */
-.group:hover .animate-marquee {
-  animation-play-state: paused;
 }

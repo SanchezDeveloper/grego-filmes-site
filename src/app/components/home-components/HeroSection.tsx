@@ -16,7 +16,7 @@ export default function HeroSection() {
           width={500}
           height={500}
           alt="Enterprise white brand"
-          className='hidden dark:block'
+          className='hidden dark:block w-4/5 max-w-75 md:max-w-125 h-auto'
           priority
         />
         <Image 
@@ -24,11 +24,11 @@ export default function HeroSection() {
           width={500}
           height={500}
           alt="Enterprise white brand"
-          className='block dark:hidden'
+          className='block dark:hidden w-4/5 max-w-75 md:max-w-125 h-auto'
           priority
         />
 
-        <div className="flex flex-col text-center my-10 text-2xl gap-2">
+        <div className="flex flex-col text-center my-10 text-md font-bold md:text-2xl gap-2">
           <h2 className="">
             Narrativas fortes. Estética de impacto.
           </h2>

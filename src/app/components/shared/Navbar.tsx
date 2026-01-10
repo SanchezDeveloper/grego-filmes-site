@@ -35,14 +35,14 @@ export default function Navbar() {
           <Image 
             src="/assets/brand/logopreta.png"
             width={80}
-            height={500}
+            height={80}
             alt="Enterprise"
             className="block dark:hidden"
           />
           <Image 
             src="/assets/brand/logobranca.png"
             width={80}
-            height={500}
+            height={80}
             alt="Enterprise"
             className="hidden dark:block"
           />
