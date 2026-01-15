@@ -5,8 +5,8 @@ export interface NavLink {
 
 export const getNavLinks: NavLink[] = [
   { name: 'Início', href: '/' },
-  { name: 'Grago Filmes', href: '/grego-films' },
+  { name: 'Grago Filmes', href: '/grego-filmes' },
   { name: 'Rec Produções', href: '/rec-producoes' },
   { name: 'Projetos Sociais', href: '/projetos-sociais' },
-  { name: 'Contatos', href: '/contacts' },
+  { name: 'Contatos', href: '/contatos' },
 ];
