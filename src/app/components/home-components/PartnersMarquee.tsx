@@ -17,7 +17,7 @@ export default function PartnersMarquee() {
   const [activePartner, setActivePartner] = useState<number | null>(null);
 
   return (
-    <section className="py-20 bg-background border-t border-white/5 overflow-hidden">
+    <section className="py-20 bg-background border-t border-foreground/5 overflow-hidden">
       <div className="container mx-auto px-4 mb-12">
         <div className="text-center space-y-2">
           <span className="text-blue-600 font-bold uppercase tracking-[0.3em] text-[10px]">CONFIANÇA</span>
